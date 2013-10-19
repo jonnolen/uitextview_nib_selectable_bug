@@ -21,6 +21,7 @@
 		FC2E99151812C1EF00DB7E07 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC2E98F71812C1EF00DB7E07 /* UIKit.framework */; };
 		FC2E991D1812C1EF00DB7E07 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC2E991B1812C1EF00DB7E07 /* InfoPlist.strings */; };
 		FC2E991F1812C1EF00DB7E07 /* textInputSelectableTestsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2E991E1812C1EF00DB7E07 /* textInputSelectableTestsTests.m */; };
+		FC2E99291812C21400DB7E07 /* TestUITextView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC2E99281812C21400DB7E07 /* TestUITextView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		FC2E991A1812C1EF00DB7E07 /* textInputSelectableTestsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "textInputSelectableTestsTests-Info.plist"; sourceTree = "<group>"; };
 		FC2E991C1812C1EF00DB7E07 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FC2E991E1812C1EF00DB7E07 /* textInputSelectableTestsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = textInputSelectableTestsTests.m; sourceTree = "<group>"; };
+		FC2E99281812C21400DB7E07 /* TestUITextView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestUITextView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 		FC2E99181812C1EF00DB7E07 /* textInputSelectableTestsTests */ = {
 			isa = PBXGroup;
 			children = (
+				FC2E99281812C21400DB7E07 /* TestUITextView.xib */,
 				FC2E991E1812C1EF00DB7E07 /* textInputSelectableTestsTests.m */,
 				FC2E99191812C1EF00DB7E07 /* Supporting Files */,
 			);
@@ -240,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC2E991D1812C1EF00DB7E07 /* InfoPlist.strings in Resources */,
+				FC2E99291812C21400DB7E07 /* TestUITextView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
